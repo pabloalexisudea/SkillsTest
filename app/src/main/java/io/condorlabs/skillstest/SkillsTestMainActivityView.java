@@ -27,6 +27,7 @@ public class SkillsTestMainActivityView extends AppCompatActivity implements Tea
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.AppTheme_NoActionBar);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_skills_test_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);

@@ -43,6 +43,15 @@ public class TeamOfLeague implements Parcelable {
         strTeam = in.readString();
         strStadium = in.readString();
         strTeamBadge = in.readString();
+        strTeamJersey = in.readString();
+        intFormedYear = in.readInt();
+        strDescriptionEN = in.readString();
+        strDescriptionES = in.readString();
+        strWebsite = in.readString();
+        strTwitter = in.readString();
+        strFacebook = in.readString();
+        strInstagram = in.readString();
+        strYoutube = in.readString();
     }
 
     public int getIdTeam() {

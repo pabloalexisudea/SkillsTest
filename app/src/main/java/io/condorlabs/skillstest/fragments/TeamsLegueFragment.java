@@ -1,6 +1,5 @@
 package io.condorlabs.skillstest.fragments;
 
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
@@ -26,8 +25,6 @@ import io.condorlabs.skillstest.adapters.TeamLeagueViewAdapter;
  * A simple {@link Fragment} subclass.
  */
 public class TeamsLegueFragment extends Fragment {
-
-
     //<editor-fold desc="Variables">
     private TextView txtTitleFragment;
     private boolean mDualPane;
@@ -66,7 +63,6 @@ public class TeamsLegueFragment extends Fragment {
 
         return view;
     }
-
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
