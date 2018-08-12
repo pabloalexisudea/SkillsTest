@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Skills Test</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="txt_no_text">...</string>
+    <string name="txt_stadium">Stadium</string>
+    <string name="txt_ok">Ok</string>
+    <string name="txt_error">Error</string>
+    <string name="txt_error_with_json_parsing">Ha ocurrido un error leyendo la respuesta del servidor</string>
+    <string name="txt_error_response">Error en la respuesta del servidor</string>
+    <string name="txt_error_retrofit">La descarga de información ha fallado. Vuelva a intentarlo.</string>
+    <string name="txt_site">Website:</string>
+    <string name="txt_foundation_year">Foundation year:</string>
+    <string name="txt_team_badge">Team badge</string>
+    <string name="txt_jersey">Jersey</string>
+    <string name="txt_no_desc">No description</string>
+
+
+    <string-array name="string_leagues_array">
+        <item>Spanish La Liga</item>
+        <item>NASCAR Sprint Cup Series</item>
+        <item>Formula 1</item>
+        <item>FIFA World Cup</item>
+    </string-array>
+
+
+</resources>
